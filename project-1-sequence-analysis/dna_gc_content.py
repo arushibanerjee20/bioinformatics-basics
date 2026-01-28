@@ -1,4 +1,5 @@
-dna_sequence = "ATGCGTACGTTAGC"
+dna_sequence = input("Enter a DNA sequence: ").upper()
+
 
 gc_count = dna_sequence.count("G") + dna_sequence.count("C")
 gc_content = (gc_count / len(dna_sequence)) * 100
