@@ -1,14 +1,10 @@
-This project explores a public RNA-seq gene expression dataset from NCBI GEO (GSE60424).
-Each GSM accession represents one biological sample from a human subject.
-Selected samples for analysis:
+Project 2: Exploratory RNA-Seq Analysis using PCA
 
-Healthy controls:
-- GSM1479433
-- GSM1479438
+This project analyzes public RNA-Seq gene expression data from multiple sclerosis (MS) patients and healthy controls.
 
-MS post-treatment:
-- GSM1479435
-- GSM1479445
+Raw gene count data were log-transformed and Principal Component Analysis (PCA) was applied to reduce dimensionality. 
+Each point in the PCA plot represents one individual sample, and samples are colored by condition (Healthy vs MS post-treatment).
 
-All samples are whole blood RNA-seq data from the GEO series GSE60424.
+The PCA visualization shows how samples cluster based on overall gene expression patterns, providing an overview of biological variation between conditions.
+
 
